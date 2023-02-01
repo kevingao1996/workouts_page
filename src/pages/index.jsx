@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
+import React, {useEffect, useState} from 'react';
 import Layout from 'src/components/Layout';
 import LocationStat from 'src/components/LocationStat';
 import RunMap from 'src/components/RunMap';
@@ -7,7 +8,7 @@ import SVGStat from 'src/components/SVGStat';
 import YearsStat from 'src/components/YearsStat';
 import useActivities from 'src/hooks/useActivities';
 import useSiteMetadata from 'src/hooks/useSiteMetadata';
-import {IS_CHINESE, MAP_HEIGHT} from 'src/utils/const';
+import { IS_CHINESE } from 'src/utils/const';
 import {
   filterAndSortRuns,
   filterCityRuns,
@@ -36,8 +37,6 @@ const Index = () => {
   const [intervalId, setIntervalId] = useState();
 
   const [viewport, setViewport] = useState({
-    width: '100%',
-    height: MAP_HEIGHT,
     ...bounds,
   });
 
@@ -59,8 +58,6 @@ const Index = () => {
 
     if (viewport.zoom > 3) {
       setViewport({
-        width: '100%',
-        height: MAP_HEIGHT,
         ...bounds,
       });
     }
@@ -89,8 +86,6 @@ const Index = () => {
 
   useEffect(() => {
     setViewport({
-      width: '100%',
-      height: MAP_HEIGHT,
       ...bounds,
     });
   }, [geoData]);
@@ -215,6 +210,8 @@ const Index = () => {
           )}
         </div>
       </div>
+      {/* Enable Audiences in Vercel Analytics: https://vercel.com/docs/concepts/analytics/audiences/quickstart */}
+      <Analytics />
     </Layout>
   );
 };
