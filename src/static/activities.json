@@ -2518,5 +2518,50 @@
 "average_speed": 0.0,
 "source": "strava",
 "streak": 3
+},
+{
+"run_id": 8667867698,
+"name": "\u6668\u95f4\u9a91\u884c",
+"distance": 0.0,
+"moving_time": "1:03:28",
+"type": "Ride",
+"start_date": "2023-03-06 02:08:06+00:00",
+"start_date_local": "2023-03-06 10:08:06",
+"location_country": null,
+"summary_polyline": "",
+"average_heartrate": 150.3,
+"average_speed": 0.0,
+"source": "strava",
+"streak": 4
+},
+{
+"run_id": 8668033426,
+"name": "\u5348\u95f4\u9a91\u884c",
+"distance": 0.0,
+"moving_time": "0:23:44",
+"type": "Ride",
+"start_date": "2023-03-06 03:36:12+00:00",
+"start_date_local": "2023-03-06 11:36:12",
+"location_country": null,
+"summary_polyline": "",
+"average_heartrate": 161.0,
+"average_speed": 0.0,
+"source": "strava",
+"streak": 4
+},
+{
+"run_id": 8668033463,
+"name": "\u5348\u95f4\u9a91\u884c",
+"distance": 0.0,
+"moving_time": "1:03:57",
+"type": "Ride",
+"start_date": "2023-03-06 04:05:22+00:00",
+"start_date_local": "2023-03-06 12:05:22",
+"location_country": null,
+"summary_polyline": "",
+"average_heartrate": 152.7,
+"average_speed": 0.0,
+"source": "strava",
+"streak": 4
 }
 ]
