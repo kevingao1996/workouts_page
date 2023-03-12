@@ -2713,5 +2713,35 @@
 "average_speed": 0.0,
 "source": "strava",
 "streak": 3
+},
+{
+"run_id": 8699590233,
+"name": "\u6668\u95f4\u9a91\u884c",
+"distance": 0.0,
+"moving_time": "0:53:42",
+"type": "Ride",
+"start_date": "2023-03-12 02:14:47+00:00",
+"start_date_local": "2023-03-12 10:14:47",
+"location_country": null,
+"summary_polyline": "",
+"average_heartrate": 139.1,
+"average_speed": 0.0,
+"source": "strava",
+"streak": 1
+},
+{
+"run_id": 8699682750,
+"name": "\u5348\u95f4\u9a91\u884c",
+"distance": 0.0,
+"moving_time": "0:29:44",
+"type": "Ride",
+"start_date": "2023-03-12 03:32:09+00:00",
+"start_date_local": "2023-03-12 11:32:09",
+"location_country": null,
+"summary_polyline": "",
+"average_heartrate": 156.8,
+"average_speed": 0.0,
+"source": "strava",
+"streak": 1
 }
 ]
