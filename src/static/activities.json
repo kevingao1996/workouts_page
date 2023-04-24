@@ -3658,5 +3658,20 @@
 "average_speed": 0.0,
 "source": "strava",
 "streak": 5
+},
+{
+"run_id": 8946905583,
+"name": "\u5348\u540e\u9a91\u884c",
+"distance": 0.0,
+"moving_time": "1:08:39",
+"type": "Ride",
+"start_date": "2023-04-24 05:56:04+00:00",
+"start_date_local": "2023-04-24 13:56:04",
+"location_country": null,
+"summary_polyline": "",
+"average_heartrate": 128.3,
+"average_speed": 0.0,
+"source": "strava",
+"streak": 1
 }
 ]
